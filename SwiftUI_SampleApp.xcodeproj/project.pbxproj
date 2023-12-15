@@ -11,6 +11,15 @@
 		F665E81D2B2B3A4B00607A2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665E81C2B2B3A4B00607A2B /* ContentView.swift */; };
 		F665E81F2B2B3A4C00607A2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F665E81E2B2B3A4C00607A2B /* Assets.xcassets */; };
 		F665E8222B2B3A4C00607A2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F665E8212B2B3A4C00607A2B /* Preview Assets.xcassets */; };
+		F665E8292B2B3D4000607A2B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665E8282B2B3D4000607A2B /* HomeView.swift */; };
+		F665E82B2B2B3D4800607A2B /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665E82A2B2B3D4800607A2B /* StoryView.swift */; };
+		F665E82D2B2B3D5100607A2B /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665E82C2B2B3D5100607A2B /* FavoritesView.swift */; };
+		F665E82F2B2B3D9D00607A2B /* FunFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665E82E2B2B3D9D00607A2B /* FunFactsView.swift */; };
+		F665E8312B2B3E5A00607A2B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665E8302B2B3E5A00607A2B /* Data.swift */; };
+		F665E8332B2C71C900607A2B /* MyStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665E8322B2C71C900607A2B /* MyStory.swift */; };
+		F665E8352B2C729A00607A2B /* StoryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665E8342B2C729A00607A2B /* StoryModels.swift */; };
+		F665E8372B2C78B700607A2B /* StoryPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665E8362B2C78B700607A2B /* StoryPageView.swift */; };
+		F665E83B2B2C807700607A2B /* DatePlanerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F665E83A2B2C807700607A2B /* DatePlanerApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,15 @@
 		F665E81C2B2B3A4B00607A2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F665E81E2B2B3A4C00607A2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F665E8212B2B3A4C00607A2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F665E8282B2B3D4000607A2B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F665E82A2B2B3D4800607A2B /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		F665E82C2B2B3D5100607A2B /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		F665E82E2B2B3D9D00607A2B /* FunFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsView.swift; sourceTree = "<group>"; };
+		F665E8302B2B3E5A00607A2B /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		F665E8322B2C71C900607A2B /* MyStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStory.swift; sourceTree = "<group>"; };
+		F665E8342B2C729A00607A2B /* StoryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryModels.swift; sourceTree = "<group>"; };
+		F665E8362B2C78B700607A2B /* StoryPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPageView.swift; sourceTree = "<group>"; };
+		F665E83A2B2C807700607A2B /* DatePlanerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePlanerApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +70,10 @@
 			isa = PBXGroup;
 			children = (
 				F665E81A2B2B3A4B00607A2B /* SwiftUI_SampleAppApp.swift */,
-				F665E81C2B2B3A4B00607A2B /* ContentView.swift */,
-				F665E81E2B2B3A4C00607A2B /* Assets.xcassets */,
+				F665E8382B2C802100607A2B /* ChooseYourOwnStory */,
+				F665E8392B2C804500607A2B /* DatePlaner */,
 				F665E8202B2B3A4C00607A2B /* Preview Content */,
+				F665E81E2B2B3A4C00607A2B /* Assets.xcassets */,
 			);
 			path = SwiftUI_SampleApp;
 			sourceTree = "<group>";
@@ -65,6 +84,30 @@
 				F665E8212B2B3A4C00607A2B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F665E8382B2C802100607A2B /* ChooseYourOwnStory */ = {
+			isa = PBXGroup;
+			children = (
+				F665E81C2B2B3A4B00607A2B /* ContentView.swift */,
+				F665E8342B2C729A00607A2B /* StoryModels.swift */,
+				F665E8302B2B3E5A00607A2B /* Data.swift */,
+				F665E8322B2C71C900607A2B /* MyStory.swift */,
+				F665E8282B2B3D4000607A2B /* HomeView.swift */,
+				F665E82A2B2B3D4800607A2B /* StoryView.swift */,
+				F665E8362B2C78B700607A2B /* StoryPageView.swift */,
+				F665E82C2B2B3D5100607A2B /* FavoritesView.swift */,
+				F665E82E2B2B3D9D00607A2B /* FunFactsView.swift */,
+			);
+			path = ChooseYourOwnStory;
+			sourceTree = "<group>";
+		};
+		F665E8392B2C804500607A2B /* DatePlaner */ = {
+			isa = PBXGroup;
+			children = (
+				F665E83A2B2C807700607A2B /* DatePlanerApp.swift */,
+			);
+			path = DatePlaner;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +180,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F665E8352B2C729A00607A2B /* StoryModels.swift in Sources */,
+				F665E8372B2C78B700607A2B /* StoryPageView.swift in Sources */,
+				F665E8312B2B3E5A00607A2B /* Data.swift in Sources */,
+				F665E82D2B2B3D5100607A2B /* FavoritesView.swift in Sources */,
+				F665E8292B2B3D4000607A2B /* HomeView.swift in Sources */,
+				F665E82F2B2B3D9D00607A2B /* FunFactsView.swift in Sources */,
+				F665E83B2B2C807700607A2B /* DatePlanerApp.swift in Sources */,
 				F665E81D2B2B3A4B00607A2B /* ContentView.swift in Sources */,
+				F665E82B2B2B3D4800607A2B /* StoryView.swift in Sources */,
 				F665E81B2B2B3A4B00607A2B /* SwiftUI_SampleAppApp.swift in Sources */,
+				F665E8332B2C71C900607A2B /* MyStory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
