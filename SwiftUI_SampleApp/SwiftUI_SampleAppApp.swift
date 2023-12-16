@@ -9,9 +9,19 @@ import SwiftUI
 
 @main
 struct SwiftUI_SampleAppApp: App {
+    
+    @StateObject private var eventData = EventData()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                
+                
+                Text("Select an Event")
+                    .foregroundStyle(.secondary)
+            }
+            .environmentObject(eventData)
         }
+        
     }
 }
