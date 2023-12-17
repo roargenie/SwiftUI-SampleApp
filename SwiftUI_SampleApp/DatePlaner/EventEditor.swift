@@ -73,11 +73,19 @@ struct EventEditor: View {
                 .padding()
             }
         }
+        .overlay(alignment: .center) {
+            if isEventDeleted {
+                Color(UIColor.systemBackground)
+                Text("Event Deleted. Select an Event.")
+                    .foregroundStyle(.secondary)
+            }
+        }
     }
 }
 
 struct EventEditor_Previews: PreviewProvider {
     static var previews: some View {
         EventEditor(event: .constant(Event()))
+            .environmentObject(EventData())
     }
 }

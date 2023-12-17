@@ -15,7 +15,7 @@ struct SwiftUI_SampleAppApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                
+                EventList()
                 
                 Text("Select an Event")
                     .foregroundStyle(.secondary)

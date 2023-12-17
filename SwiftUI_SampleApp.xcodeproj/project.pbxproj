@@ -130,15 +130,15 @@
 				F665E83C2B2C81EB00607A2B /* Event.swift */,
 				F665E83E2B2C828A00607A2B /* EventTask.swift */,
 				F665E8402B2C831000607A2B /* EventData.swift */,
+				F665E8442B2C8FD000607A2B /* EventSymbols.swift */,
+				F665E84E2B2C993800607A2B /* SFSymbolStyling.swift */,
+				F665E8422B2C8F9F00607A2B /* ColorOption.swift */,
+				F665E84C2B2C96E300607A2B /* SymbolPicker.swift */,
 				F665E8482B2C936900607A2B /* EventDetail.swift */,
 				F665E8522B2C9BAD00607A2B /* EventEditor.swift */,
-				F665E84C2B2C96E300607A2B /* SymbolPicker.swift */,
-				F665E84E2B2C993800607A2B /* SFSymbolStyling.swift */,
 				F665E84A2B2C94F300607A2B /* TaskRow.swift */,
-				F665E8422B2C8F9F00607A2B /* ColorOption.swift */,
-				F665E8442B2C8FD000607A2B /* EventSymbols.swift */,
-				F665E8462B2C90FC00607A2B /* EventList.swift */,
 				F665E8502B2C9AB600607A2B /* EventRow.swift */,
+				F665E8462B2C90FC00607A2B /* EventList.swift */,
 			);
 			path = DatePlaner;
 			sourceTree = "<group>";
